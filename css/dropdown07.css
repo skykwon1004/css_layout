@@ -41,8 +41,22 @@ body {
     text-align: right;
 }
 
-#header .gnb>ul>li:nth-child(2) .menu_wrap ul {
-    transform: translate(100px, 0);
+#header .mega {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 100px;
+}
+
+#header .mega img {
+    width: 250px;
+}
+
+#header .mega .right_menu {
+    display: flex;
+    gap: 30px;
 }
 
 #header .gnb>ul>li>a {
@@ -61,7 +75,7 @@ body {
     top: 100px;
     left: 0;
     right: 0;
-    line-height: 35px;
+    line-height: 25px;
 
     background: #fff;
     border-top: 1px solid #ddd;
@@ -73,14 +87,6 @@ body {
     display: block;
 }
 
-#header .gnb>ul>li .submenu {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
 
 
 .mainVisual {
